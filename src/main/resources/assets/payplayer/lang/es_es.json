@@ -1,0 +1,10 @@
+{
+  "item.payplayer.charge_money": "Cobrador de Dinero",
+  "item.payplayer.give_money": "Dador de Dinero",
+  "screen.payplayer.charge_money": "💸 Cobrar Dinero",
+  "screen.payplayer.give_money": "💰 Dar Dinero",
+  "screen.payplayer.amount": "Monto",
+  "screen.payplayer.amount_label": "Monto:",
+  "screen.payplayer.hint": "▶ Click derecho sobre un jugador para aplicar",
+  "screen.payplayer.close": "✔ Confirmar"
+}

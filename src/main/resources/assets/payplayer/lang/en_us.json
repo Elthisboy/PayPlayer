@@ -1,0 +1,10 @@
+{
+  "item.payplayer.charge_money": "Money Charger",
+  "item.payplayer.give_money": "Money Giver",
+  "screen.payplayer.charge_money": "💸 Charge Money",
+  "screen.payplayer.give_money": "💰 Give Money",
+  "screen.payplayer.amount": "Amount",
+  "screen.payplayer.amount_label": "Amount:",
+  "screen.payplayer.hint": "▶ Right-click a player to apply",
+  "screen.payplayer.close": "✔ Confirm"
+}

@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.elthisboy.paypleyer.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"InteractionMixin",
+		"NoBlurMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

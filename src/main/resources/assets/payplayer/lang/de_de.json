@@ -1,0 +1,10 @@
+{
+  "item.payplayer.charge_money": "Geldkassierer",
+  "item.payplayer.give_money": "Geldgeber",
+  "screen.payplayer.charge_money": "💸 Geld kassieren",
+  "screen.payplayer.give_money": "💰 Geld geben",
+  "screen.payplayer.amount": "Betrag",
+  "screen.payplayer.amount_label": "Betrag ($):",
+  "screen.payplayer.hint": "Rechtsklick auf einen Spieler zum Anwenden",
+  "screen.payplayer.close": "✔ Fertig"
+}
