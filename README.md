@@ -3,7 +3,7 @@
 ## Project Identity
 - **Name:** PayPlayer
 - **Mod ID:** `payplayer`
-- **Version:** `1.0.3` (Resolved at build time)
+- **Version:** `1.0.3`
 
 ## Technical Summary
 The **PayPlayer** mod implements a physical item-based economy interaction system. Rather than relying entirely on chat commands, it registers two unique interactive items (`charge_money` and `give_money`) into the `TOOLS` creative tab. When a player uses these items on another player, it triggers a custom C2S packet (`MoneyPackets`). The server securely processes the packet, manipulating the defined vanilla scoreboard objective to transfer funds.
