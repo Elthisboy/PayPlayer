@@ -31,5 +31,5 @@ The mod expects/generates the configuration file at `config/payplayer.json`:
 ```
 
 ## Developer Info
-- **Author:** Me! (elthisboy)
+- **Author:** El_this_boy
 - **Platform:** Fabric 1.21.1
