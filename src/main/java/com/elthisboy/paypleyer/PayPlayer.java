@@ -4,7 +4,11 @@ import com.elthisboy.paypleyer.config.PayPlayerConfig;
 import com.elthisboy.paypleyer.item.ChargeMoneyItem;
 import com.elthisboy.paypleyer.item.GiveMoneyItem;
 import com.elthisboy.paypleyer.network.MoneyPackets;
+import com.elthisboy.paypleyer.pvpmoney.PvpMoneyCommand;
+import com.elthisboy.paypleyer.pvpmoney.PvpMoneyConfig;
+import com.elthisboy.paypleyer.pvpmoney.PvpMoneyDeathHandler;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -34,6 +38,11 @@ public class PayPlayer implements ModInitializer {
         });
 
         MoneyPackets.registerServerHandlers();
+
+        PvpMoneyConfig.load();
+        PvpMoneyDeathHandler.register();
+        CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) ->
+                PvpMoneyCommand.register(dispatcher));
 
         LOGGER.info("[PayPlayer] Mod inicializado.");
     }

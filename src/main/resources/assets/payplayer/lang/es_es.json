@@ -6,5 +6,12 @@
   "screen.payplayer.amount": "Monto",
   "screen.payplayer.amount_label": "Monto:",
   "screen.payplayer.hint": "▶ Click derecho sobre un jugador para aplicar",
-  "screen.payplayer.close": "✔ Confirmar"
+  "screen.payplayer.close": "✔ Confirmar",
+  "message.pvpmoney.lost": "☠ Has perdido $%s al morir.",
+  "message.pvpmoney.stole": "⚔ Has robado $%s de %s.",
+  "message.pvpmoney.lost_nokiller": "☠ Perdiste $%s al morir.",
+  "message.pvpmoney.no_money": "No tenías dinero que perder.",
+  "message.pvpmoney.loss_small": "-$%s",
+  "message.pvpmoney.received_small": "+$%s",
+  "command.pvpmoney.reload": "Configuración de PvP Money recargada."
 }

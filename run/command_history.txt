@@ -1,0 +1,9 @@
+/scoreboard players set Player111 SD
+/scoreboard objectives add money dummy
+/scoreboard objectives setdisplay list money
+/scoreboard players add Player111 money 100
+/scoreboard objectives setdisplay sidebar money
+/gamerule keepInventory true
+/difficulty hard
+/scoreboard players set @s money 1000
+/summon minecraft:zombie

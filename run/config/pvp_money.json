@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "scoreboardObjective": "money",
+  "deathLosePercent": 0.2,
+  "killerStealPercent": 0.1,
+  "sendMessages": true,
+  "playSound": true
+}

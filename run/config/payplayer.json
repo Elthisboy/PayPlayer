@@ -1,5 +1,7 @@
 {
   "scoreboardName": "money",
   "currencyName": "money",
-  "currencySymbol": "$"
+  "currencySymbol": "$",
+  "chargeToSelf": false,
+  "giveFromSelf": false
 }
